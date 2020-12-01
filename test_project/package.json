@@ -1,0 +1,14 @@
+{
+  "name": "test_project",
+  "version": "1.0.0",
+  "description": "testing node.js server setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JAX",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
