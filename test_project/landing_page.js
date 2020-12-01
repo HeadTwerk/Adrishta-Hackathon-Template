@@ -12,5 +12,5 @@ app.get('/about', (req, res) => {
 app.get('/contact', (req, res) => {
     res.sendFile('./landing-page/contact.html', { root: __dirname });
 });
-
+    
 app.listen(port, () => console.log(`listening on port ${port}!`));
